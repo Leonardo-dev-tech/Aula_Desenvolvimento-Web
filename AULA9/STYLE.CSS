@@ -2,7 +2,7 @@
 
   display: flex;
   justify-content:flex-start;
-  height:100px;
+  height:200px;
   width: 50vw;
   background-color: blue;
   margin-top: 10px;
@@ -20,7 +20,7 @@ span {
 
     display: flex;
     justify-content:flex-end;
-    height:100px;
+    height:200px;
     width: 50vw;
     background-color: blue;
     margin-top: 10px;
@@ -53,17 +53,6 @@ span {
       margin-left: 5px;
   
   }
-  
-  .f-h-between {
-
-    display: flex;
-    justify-content:space-between;
-    height:100px;
-    width: 50vw;
-    background-color: blue;
-    margin-top: 10px;
-  
-  }
   span {
       font-size: 10px;
       background-color: aqua;
@@ -91,4 +80,71 @@ span {
       border-radius: 10px;
       margin-left: 5px;
   
+  }
+  .f-v-stretch {
+
+    display: flex;
+    align-items: stretch;
+    height:100px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+  }
+  .f-v-center {
+
+    display: flex;
+    justify-content:center;
+    height:100px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+  }
+  .f-v-end {
+
+    display: flex;
+    justify-content:flex-end;
+    height:200px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+  
+  }
+  .f-V-start {
+
+    display: flex;
+    justify-content:flex-start;
+    height:200px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+  }
+  .f-v-col-center {
+
+    display: flex;
+    align-items: center;
+    height:100px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .f-v-col-end {
+
+    display: flex;
+    align-items: flex-end;
+    height:200px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  .f-v-col-start {
+
+    display: flex;
+    align-items: flex-start;
+    height:200px;
+    width: 50vw;
+    background-color: blue;
+    margin-top: 10px;
+    flex-direction: column;
   }
